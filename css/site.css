@@ -1,0 +1,130 @@
+body {
+    margin: 3%;
+    padding: 0;
+    background: white 
+
+}
+.nav{
+    text-align: right;
+    padding-left: 870px;
+    padding-top: 1%;
+}
+.container {
+    position: absolute;
+}
+li{
+    display: inline-block;
+
+}
+
+li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size:15px;
+    padding: 0 20px;
+    font-weight: lighter;
+    letter-spacing: 0.1em; 
+
+
+
+}
+
+.link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: lightseagreen;
+    transition: width .3s
+}
+
+.link:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+h1{ 
+    font-size: 27px;
+    color: lightseagreen;
+    letter-spacing: 0.2em; 
+    padding-left: 7px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  margin-top: 3%;
+  max-width: 450px;
+  position: absolute;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: lightseagreen
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.paragraph{
+    float: right;
+}
+h2{
+    color: black;
+    font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    letter-spacing: 0.1em; 
+
+}
+p{
+    color: black;
+    font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    letter-spacing: 0.1em; 
+    font-size: 17px;
+
+}
