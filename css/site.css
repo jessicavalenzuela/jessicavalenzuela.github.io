@@ -46,12 +46,12 @@ li a {
 }
 
 h1{ 
-    margin: 0;;
+    margin: 0;
     vertical-align: middle;
     font-size: 34px;
     color: lightseagreen;
     letter-spacing: 0.2em; 
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', cursive;;
     font-weight: lighter;
 
 
@@ -117,5 +117,13 @@ p{
     font-size: 17px;   
 
 
+}
+.link2{
+    color: lightseagreen;
+    font-weight: bold;
+}
+.color{
+    color:lightseagreen;
+    font-weight: bold;
 }
 
