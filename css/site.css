@@ -1,7 +1,5 @@
 body {
     padding: 0;
-    background: white'
-
 }
 .header {
     padding: 40px;
@@ -133,4 +131,18 @@ p{
     .slideshow-container{
         display: none;
     }
+}
+
+footer{
+    background: rgb(190, 238, 236);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+main{
+    padding-bottom: 60px;
+}
+
+.contacts{
+    text-align: center;
 }
