@@ -132,17 +132,14 @@ p{
         display: none;
     }
 }
-
 footer{
-    background: rgb(190, 238, 236);
+    background: rgb(215, 241, 240);
     padding-top: 5px;
     padding-bottom: 5px;
+    text-align: center;
 }
 
 main{
     padding-bottom: 60px;
 }
 
-.contacts{
-    text-align: center;
-}
