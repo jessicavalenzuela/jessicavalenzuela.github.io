@@ -4,6 +4,7 @@ body {
 .header {
     padding: 40px;
     text-align: center;
+    
       
   }
 
@@ -132,14 +133,20 @@ p{
         display: none;
     }
 }
-footer{
-    background: rgb(215, 241, 240);
+
+.footer {
+    position: abosolute;
     padding-top: 5px;
-    padding-bottom: 5px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(215, 241, 240);;
     text-align: center;
-}
+ }
 
 main{
     padding-bottom: 60px;
 }
-
+#TD{
+    font-weight: bold;
+}
