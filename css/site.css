@@ -150,3 +150,8 @@ main{
 #TD{
     font-weight: bold;
 }
+.one{
+    text-align: center;
+    font-size: larger;
+    color: grey;
+}
