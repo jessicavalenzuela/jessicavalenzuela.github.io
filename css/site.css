@@ -170,14 +170,14 @@ main {
 }
 #work {
   margin-top: 1px;
-  font-size: 13px;
+  font-size: 12px;
   margin-bottom: 0px;
   color: lightseagreen;
   font-weight: bold;
 }
 #position {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 17px;
   margin-bottom: 0px;
 }
 .Guardian {
@@ -185,17 +185,36 @@ main {
   display: grid;
   grid-template-columns: 0.05fr 0.5fr;
   grid-gap: 5px;
-  border-bottom: 2px solid #007974;
+  /* border-bottom: 2px solid #007974; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
 }
-.TD {
+.TD,
+.Stevens {
   margin: 8px;
   display: grid;
   grid-template-columns: 0.05fr 0.2fr 0.9fr;
   grid-gap: 5px;
-  border-bottom: 2px solid #007974;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.TD:hover,
+.Stevens:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.Guardian:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.TD,
+.Guardian,
+.Stevens {
+  margin: 8px;
+  margin-left: 3%;
+  margin-right: 30%;
 }
 h3 {
   margin: 8px;
+  margin-left: 1%;
 
   color: black;
   font-family: "Montserrat", sans-serif;
@@ -203,6 +222,7 @@ h3 {
   font-size: 18px;
   font-weight: bold;
   text-decoration: underline;
+  padding-bottom: 2px;
 }
 .description {
   margin: 1rem;
