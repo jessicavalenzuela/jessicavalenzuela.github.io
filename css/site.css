@@ -231,7 +231,6 @@ main {
 .Stevens {
   margin: 8px;
   margin-left: 3%;
-  margin-right: 30%;
 }
 h3 {
   margin: 8px;
@@ -253,4 +252,18 @@ ul {
   list-style-type: disc;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
+}
+.allexperience {
+  justify-content: left;
+  align-items: left;
+}
+.image {
+  margin-top: 50%;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 5px;
+  align-self: center;
 }
