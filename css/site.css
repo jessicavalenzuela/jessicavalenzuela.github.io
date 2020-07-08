@@ -260,10 +260,42 @@ ul {
 .image {
   margin-top: 50%;
 }
+.hover {
+  opacity: 0;
+  height: 515px;
+  width: 560px;
+  position: absolute;
+  align-self: center;
+}
+.hover:hover {
+  opacity: 0.9;
 
+  display: block;
+  background-color: #007974;
+  height: 515px;
+  width: 560px;
+  align-self: center;
+  position: absolute;
+}
 .content {
   display: grid;
   grid-template-columns: 1fr auto;
   grid-gap: 5px;
   align-self: center;
+}
+
+.container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.main {
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.img3,
+.img4 {
+  margin-top: 10%;
 }
