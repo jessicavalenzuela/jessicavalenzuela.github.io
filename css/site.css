@@ -267,16 +267,7 @@ ul {
   position: absolute;
   align-self: center;
 }
-.hover:hover {
-  opacity: 0.9;
 
-  display: block;
-  background-color: #007974;
-  height: 515px;
-  width: 560px;
-  align-self: center;
-  position: absolute;
-}
 .content {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -285,9 +276,9 @@ ul {
 }
 
 .container {
-  text-align: center;
   display: grid;
   grid-template-columns: auto auto;
+  justify-content: center;
 }
 .main {
   margin-top: 5%;
@@ -298,4 +289,94 @@ ul {
 .img3,
 .img4 {
   margin-top: 10%;
+}
+.img1 {
+  background-image: url("../image/stevensmarketplace.png");
+  position: relative;
+  width: 400px;
+  height: 400px;
+  float: left;
+  background-size: 100%;
+  background-position: center;
+  transition: 0.5s;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.img2 {
+  background-image: url("../image/frontploosh.JPG");
+  position: relative;
+  width: 400px;
+  height: 400px;
+  float: left;
+  margin: 4px;
+  background-size: 100%;
+  background-position: center;
+  transition: 0.5s;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.img3 {
+  background-image: url("../image/redbubble (2).png");
+  position: relative;
+  width: 400px;
+  height: 400px;
+  float: left;
+  margin: 4px;
+  background-size: 100%;
+  background-position: center;
+  transition: 0.5s;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.img4 {
+  background-image: url("../image/githubprofile.png");
+  position: relative;
+  width: 400px;
+  height: 400px;
+  float: left;
+  margin: 4px;
+  background-size: 100%;
+  background-position: center;
+  transition: 0.5s;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.img1:hover,
+.img2:hover,
+.img3:hover,
+.img4:hover {
+  background-size: 110%;
+}
+.img1::after,
+.img2::after,
+.img3::after,
+.img4::after {
+  position: absolute;
+  top: 90%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  white-space: pre-wrap;
+  overflow: hidden;
+  background-color: #007974;
+  color: #fff;
+  padding: 0 8px;
+  content: attr(data-text);
+  transition: 0.5s;
+}
+.img1:hover::after,
+.img2:hover::after,
+.img3:hover::after,
+.img4:hover::after {
+  opacity: 1;
+  top: 0;
+  padding: 8px;
+}
+.img1::first-line,
+.img2::first-line,
+.img3::first-line,
+.img4::first-line {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5em;
 }
