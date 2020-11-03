@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  background: url(../image/background.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 main {
   margin: 8;
@@ -48,12 +50,10 @@ nav {
 h1 {
   margin: 0;
   vertical-align: middle;
-  font-size: 34px;
+  font-size: 40px;
   color: lightseagreen;
   letter-spacing: 0.2em;
   font-family: "Bebas Neue", cursive;
-  font-weight: lighter;
-
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   grid-template-rows: 20px 0;
@@ -63,7 +63,6 @@ h1:after,
 h1:before {
   content: " ";
   display: block;
-  border-bottom: 5px double #007974;
 }
 * {
   box-sizing: border-box;
@@ -108,7 +107,9 @@ h1:before {
   }
 }
 
-h2,
+h2 {
+  color: white;
+}
 #p1,
 #p2,
 #p3,
@@ -130,7 +131,7 @@ h2 {
   font-size: 18px;
 }
 p {
-  color: black;
+  color: white;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.1em;
   font-size: 17px;
@@ -169,15 +170,9 @@ p {
     transition: 0.3s;
     width: 100%;
   }
-}
-footer {
-  position: abosolute;
-  padding-top: 5px;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #a9d6d5;
-  text-align: center;
+  .drawing {
+    display: none;
+  }
 }
 
 main {
@@ -256,6 +251,7 @@ ul {
 .allexperience {
   justify-content: left;
   align-items: left;
+  color: white;
 }
 .image {
   margin-top: 50%;
@@ -273,6 +269,7 @@ ul {
   grid-template-columns: 1fr auto;
   grid-gap: 5px;
   align-self: center;
+  background-color: black;
 }
 
 .container {
@@ -379,4 +376,60 @@ ul {
   color: #fff;
   font-weight: bold;
   font-size: 1.5em;
+}
+
+.navbar {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 3%;
+  max-width: 4000px;
+}
+.nav-links {
+  display: flex;
+  list-style-type: none;
+}
+.nav-links a {
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+  display: inline-block;
+  font-weight: bold;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  padding: 0.25rem 0.5rem;
+  transition: var(--mainTransition);
+  text-decoration: none;
+}
+.nav-links a:hover {
+  color: #a9d6d5;
+}
+
+.logo {
+  width: 4.2rem;
+  height: 4rem;
+  float: left;
+}
+
+.home {
+  padding: 3%;
+  margin-top: 7%;
+  margin-left: 12%;
+  margin-right: 12%;
+  background-color: black;
+}
+
+.experience {
+  padding: 3%;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: black;
 }
